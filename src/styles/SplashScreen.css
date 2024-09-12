@@ -1,15 +1,14 @@
 .splash-screen {
-    background-color: #293250;
+    background-color: beige; 
     background-image: url('../splash.webp');
-    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    display: flex;
+    height: 79vh;
+    display: center;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-size: 100% auto;
+    background-size: 50% auto;
     overflow: hidden;
   }
   

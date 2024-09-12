@@ -22,7 +22,7 @@ function DeskNavBar() {
         <ul className="desknav-links">
           <CustomLink to="/Services">Services</CustomLink>          
           <CustomLink to="/AboutAD">About AD</CustomLink>
-          <CustomLink to="/MyStudentsAreAwesome">Testimonials</CustomLink>
+          <CustomLink to="/Testimonials">Testimonials</CustomLink>
           <CustomLink to="/MyMission">My Mission</CustomLink>
           <CustomLink to="/Contact">Contact</CustomLink>
         </ul>

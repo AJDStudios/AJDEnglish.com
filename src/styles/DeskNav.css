@@ -1,7 +1,7 @@
 .desknav {
   display: flex;
   align-items: center;
-  justify-content: center; /* Center the menu horizontally */
+  justify-content: center; 
   flex-grow: 1;
 }
   
