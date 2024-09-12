@@ -1,0 +1,72 @@
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; 
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 5%;
+}
+
+.site-logo {
+  text-align: center;
+}
+
+.logo-text {
+  margin-top: 0;
+  font-size: 8px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.site-logo img {
+  width: 120px;
+  height: auto;
+}
+
+@media (max-width: 1024px) {
+  .desknav {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header .nav {
+    display: none;
+  }
+}
+
+.settings {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.settings-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.settings-dropdown {
+  position: absolute;
+  top: calc(100% + 20px);
+  width: 200px; /* Adjust the width as per your preference */
+  background-color: #ffffff;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+}
+
+.settings-icon svg {
+  width: 28px;
+  height: 28px;
+}

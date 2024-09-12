@@ -1,0 +1,21 @@
+.splash-screen {
+    background-color: #293250;
+    background-image: url('../splash.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: 100% auto;
+    overflow: hidden;
+  }
+  
+  .splash-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+  }
+  

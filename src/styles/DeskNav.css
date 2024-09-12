@@ -1,0 +1,28 @@
+.desknav {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center the menu horizontally */
+  flex-grow: 1;
+}
+  
+  .desknav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .desknav-links li {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  
+  .desknav-links li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+  }
+  
+  .desknav-links li.active a {
+    font-weight: bold;
+  }
