@@ -11,9 +11,8 @@ import SplashScreen from './pages/SplashScreen.js';
 import './styles/App.css';
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true); // Set this flag to indicate if the app is still loading or ready
+  const [isLoading, setIsLoading] = useState(true); 
 
-  // Simulate loading process
   setTimeout(() => {
     setIsLoading(false);
   }, 3000);
