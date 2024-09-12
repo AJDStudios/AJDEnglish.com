@@ -11,7 +11,29 @@ exports[`renders the app component 1`] = `
     >
       <div
         class="splash-header"
-      />
+      >
+        <img
+          alt="Selfie of AD with students"
+          class="splash-image"
+          src="test-file-stub"
+        />
+      </div>
+      <div
+        class="splash-text"
+      >
+        <p>
+          Welcome to A J D English!
+          <br />
+          <br />
+          Experience flexible, student-led lessons designed to build your confidence and communication skills.
+          <br />
+          <br />
+          Forget the traditional classroom—our online sessions are tailored to your needs, allowing you to learn at your pace, on your schedule.
+          <br />
+          <br />
+          Speak fluently and comfortably in any situation.
+        </p>
+      </div>
     </div>
   </div>
 </DocumentFragment>
