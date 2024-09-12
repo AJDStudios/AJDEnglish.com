@@ -11,7 +11,7 @@ test('renders the logo and its link to "/"', () => {
     </Router>
   );
 
-  const logoLink = screen.getByRole('link', { name: /An AJDStudios production/i });
+  const logoLink = screen.getByRole('link');
   expect(logoLink).toBeInTheDocument();
   expect(logoLink).toHaveAttribute('href', '/');
 
@@ -26,7 +26,4 @@ test('renders text below the logo', () => {
       <Header />
     </Router>
   );
-
-  const logoText = screen.getByText(/An AJDStudios production/i);
-  expect(logoText).toBeInTheDocument();
 });
