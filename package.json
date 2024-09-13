@@ -21,7 +21,6 @@
     "test": "jest --coverage",
     "coverage": "jest --coverage",
     "format": "prettier --write .",
-    "lhci": "lhci autorun",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"

@@ -4,8 +4,6 @@ import { render, screen, fireEvent } from '@testing-library/react';
 import { Navigation } from '../components/Nav';
 import { createMemoryHistory } from 'history';
 
-
-//test for the presense of the burger icon
 describe('Navigation', () => {
   const originalWindow = { ...window };
 
@@ -20,7 +18,6 @@ describe('Navigation', () => {
   });
 
   test('displays burger icon on mobile', () => {
-    // Set the window.innerWidth to simulate a mobile screen
     window.innerWidth = 500;
     window.dispatchEvent(new Event('resize'));
   
@@ -28,7 +25,7 @@ describe('Navigation', () => {
     screen.debug();
   
     const burgerIconsMobile = screen.queryAllByText('☰');
-    expect(burgerIconsMobile.length).toBe(1); // Expect burger icon to be displayed on mobile
+    expect(burgerIconsMobile.length).toBe(1);
   });
 });
 
@@ -40,22 +37,17 @@ describe('Navigation', () => {
           <Navigation />
         </MemoryRouter>
       );
-        // Arrange
+
         const burgerIcon = screen.getByText('☰');
 
-        // Assert initial state
         expect(burgerIcon).toBeInTheDocument();
     
-        // Act
         fireEvent.click(burgerIcon);
-    
-        // Assert
+
         expect(burgerIcon).toHaveTextContent('✕');
-    
-        // Act again
+
         fireEvent.click(burgerIcon);
-    
-        // Assert
+
         expect(burgerIcon).toHaveTextContent('☰');
     });
   });
