@@ -6,7 +6,7 @@ import Services from "./pages/Services.js";
 import AboutAD from "./pages/AboutAD.js";
 import Testimonials from "./pages/Testimonials.js";
 import MyMission from "./pages/MyMission.js";
-import Contact from "./pages/Contact.js";
+import Contact from "./pages/contact.jsx";
 import SplashScreen from './pages/SplashScreen.js';
 import './styles/App.css';
 

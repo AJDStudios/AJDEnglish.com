@@ -37,7 +37,7 @@ describe('App', () => {
     act(() => {
       render(<App />);
     });
-    const loadingIndicator = screen.getByTestId('splash-screen'); // Replace with the appropriate loading indicator element
+    const loadingIndicator = screen.getByTestId('splash-screen'); 
     expect(loadingIndicator).toBeInTheDocument();
   });
 
@@ -45,7 +45,7 @@ describe('App', () => {
     act(() => {
       render(<App isLoading={true} />);
     });
-    const loadingIndicator = screen.getByTestId('splash-screen'); // Replace with the appropriate loading indicator element
+    const loadingIndicator = screen.getByTestId('splash-screen'); 
     expect(loadingIndicator).toBeInTheDocument();
   });
 })
