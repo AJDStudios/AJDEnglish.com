@@ -1,10 +1,11 @@
 module.exports = {
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/src/setupTests.js'],
-  moduleFileExtensions: ['js', 'jsx'],
-  testMatch: ['<rootDir>/src/**/*.test.{js,jsx}'],
+  moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx'],
+  testMatch: ['<rootDir>/src/**/*.test.{js,jsx,ts,tsx}'],
   transform: {
     '^.+\\.(js|jsx)$': 'babel-jest',
+    '^.+\\.(ts|tsx)$': 'ts-jest',
   },
   moduleNameMapper: {
     '\\.(css|less|scss)$': 'identity-obj-proxy',
@@ -15,7 +16,7 @@ module.exports = {
     '<rootDir>/src/setupTests.js',
   ],
   collectCoverageFrom: [
-    '<rootDir>/src/**/*.{js,jsx}',
+    '<rootDir>/src/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/index.js',
   ],
   coverageReporters: ['text', 'lcov'],
