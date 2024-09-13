@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Contact from '../pages/Contact';
+import Contact from '../pages/contact';
 
 test('renders Contact page', () => {
   render(<Contact />);
