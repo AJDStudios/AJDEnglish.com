@@ -1,14 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
 .App {
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: space-between; 
   min-height: 100vh;
-  overflow-x: hidden;}
-
-  .app-content {
-    flex-grow: 1;
-  }  
+  overflow-x: hidden;
+}
 
 body {
   margin: 0;
