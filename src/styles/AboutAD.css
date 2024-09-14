@@ -1,0 +1,122 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    min-height: 100vh;
+    margin: 0; 
+  }
+  
+  .AboutAD {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: beige;
+  }
+  
+  .teacher-image {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;  
+  }
+  
+  .teacher-text {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .man-image {
+    width: auto;
+    height: 33%; 
+    object-fit: cover;  
+  }
+  
+  .man-text {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  @media (max-width: 767px) {
+    .teacher-image {
+      max-width: 100%;
+      max-height: 45vh; 
+    }
+  
+    .teacher-text {
+      font-size: 1rem;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    }
+  
+    .man-image {
+        max-width: 100%;
+        max-height: 33%; 
+    }
+
+    .man-text {
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .teacher-image {
+      width: 100%;
+      height: auto;
+    }
+  
+    .teacher-text {
+      font-size: 1.2rem;
+      height: 50vh;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    }
+
+    .man-image {
+        max-width: 100%;
+        height: 50%;
+    }
+    
+    .man-text {
+        font-size: 1.2rem;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .teacher-image {
+      height: 75vh;
+      width: auto;
+    }
+  
+    .teacher-text {
+      font-size: 1rem;
+      padding-bottom: 2px;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+    }
+    .man-image {
+        height: 40%;
+        max-width: 100%;
+    }
+    
+    .man-text {
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+    }
+  }
