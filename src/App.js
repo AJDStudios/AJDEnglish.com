@@ -24,14 +24,14 @@ const App = () => {
       ) : (
         <Router>
           <Header />
-            <Routes>
-              <Route path="/" element={<SplashScreen />} />
-              <Route path="/Services" element={<Services />} /> 
-              <Route path="/AboutAD" element={<AboutAD />} />
-              <Route path="/Testimonials" element={<Testimonials />} />
-              <Route path="/MyMission" element={<MyMission />} />
-              <Route path="/Contact" element={<Contact />} />
-            </Routes>
+          <Routes>
+            <Route path="/" element={<SplashScreen />} />
+            <Route path="/Services" element={<Services />} /> 
+            <Route path="/AboutAD" element={<AboutAD />} />
+            <Route path="/Testimonials" element={<Testimonials />} />
+            <Route path="/MyMission" element={<MyMission />} />
+            <Route path="/Contact" element={<Contact />} />
+          </Routes>
           <Footer /> 
         </Router>
       )}
