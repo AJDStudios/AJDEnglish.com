@@ -1,9 +1,14 @@
 .App {
   text-align: center;
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
   min-height: 100vh;
-  overflow-x: hidden;
-}
+  overflow-x: hidden;}
+
+  .app-content {
+    flex-grow: 1;
+  }  
 
 body {
   margin: 0;
