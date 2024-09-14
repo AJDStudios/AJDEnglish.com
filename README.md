@@ -14,3 +14,4 @@ Work in progress
     - updated About AD content and test
     - added flags for students taught to the footer
     - updated snapshot and tests to improve coverage    
+    - updated testimonials content and test
