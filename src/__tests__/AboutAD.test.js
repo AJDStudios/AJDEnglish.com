@@ -27,5 +27,3 @@ test('renders both images in AboutAD page', () => {
   const manImage = screen.getByAltText(/ad standing in front of the borodino museum panorama/i);
   expect(manImage).toBeInTheDocument();
 });
-
-

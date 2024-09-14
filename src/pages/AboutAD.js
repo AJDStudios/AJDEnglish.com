@@ -50,7 +50,7 @@ const AboutAD = () => {
             <br></br>
           </p>
         </div>
-      </div>
+      </div>  
     </>
   );
 };
