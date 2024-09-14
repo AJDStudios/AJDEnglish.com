@@ -39,3 +39,45 @@
   .flag:hover {
     opacity: 1;
   }
+
+@media (max-width: 767px) {
+  .footer {
+      flex-direction: column;
+      height: auto;
+      padding: 0px;
+      font-size: 0.4rem;
+  }
+
+  .flag-container {
+      gap: 2px;
+  }
+
+  .flag {
+      font-size: 0.5rem;
+  }
+
+  .flag-section h3 {
+      font-size: 0.4rem;
+  }
+}
+
+/* Tablet View */
+@media (min-width: 768px) and (max-width: 1080px) {
+  .footer {
+      padding: 0 10px;
+      height: auto;
+      font-size: 0.5rem;
+  }
+
+  .flag {
+      font-size: 1rem;
+  }
+
+  .flag-section h3 {
+      font-size: 0.5rem;
+  }
+
+  .flag-container {
+      gap: 4px;
+  }
+}  
