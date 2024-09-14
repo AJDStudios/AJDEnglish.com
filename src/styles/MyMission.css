@@ -1,0 +1,59 @@
+.mission-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  .mission-page h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .mission-section {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .mission-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .mission-section h3 {
+    font-size: 1.8rem;
+    color: #00796b;
+    margin-bottom: 10px;
+  }
+  
+  .mission-section p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .mission-section .emoji {
+    font-size: 2rem;
+    margin-right: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .mission-section {
+      padding: 15px;
+      margin-bottom: 20px;
+    }
+  
+    .mission-section h3 {
+      font-size: 1.5rem;
+    }
+  
+    .mission-section p {
+      font-size: 1rem;
+    }
+  }
+  

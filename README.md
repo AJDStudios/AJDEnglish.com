@@ -15,3 +15,4 @@ Work in progress
     - added flags for students taught to the footer
     - updated snapshot and tests to improve coverage    
     - updated testimonials content and test
+    - My Misison content and test
