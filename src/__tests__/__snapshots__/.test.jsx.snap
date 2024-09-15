@@ -6,33 +6,112 @@ exports[`renders the app component 1`] = `
     class="app"
   >
     <div
-      class="splash-screen"
+      class="landing-page"
       data-testid="splash-screen"
     >
+      <h1>
+        What's Your Main Language Challenge?
+      </h1>
+      <p>
+        Pick one of the options below.
+      </p>
       <div
-        class="splash-header"
+        class="word-grid"
       >
-        <img
-          alt="Selfie of AD with students"
-          class="splash-image"
-          src="test-file-stub"
-        />
+        <div
+          class="word-section"
+        >
+          <h2>
+            Speaking Confidently
+          </h2>
+          <div
+            class="interactive-word"
+          >
+             
+            <button
+              class="click-here-btn"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
+        <div
+          class="word-section"
+        >
+          <h2>
+            Not being able to say what's in my head
+          </h2>
+          <div
+            class="interactive-word"
+          >
+             
+            <button
+              class="click-here-btn"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
+        <div
+          class="word-section"
+        >
+          <h2>
+            Preparing for an Exam
+          </h2>
+          <div
+            class="interactive-word"
+          >
+             
+            <button
+              class="click-here-btn"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
+        <div
+          class="word-section"
+        >
+          <h2>
+            Long Pauses
+          </h2>
+          <div
+            class="interactive-word"
+          >
+             
+            <button
+              class="click-here-btn"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
+        <div
+          class="word-section"
+        >
+          <h2>
+            Sounding Foolish
+          </h2>
+          <div
+            class="interactive-word"
+          >
+             
+            <button
+              class="click-here-btn"
+            >
+              Click here
+            </button>
+          </div>
+        </div>
       </div>
       <div
-        class="splash-text"
+        class="cta-section"
       >
-        <p>
-          Welcome to A J D English!
-          <br />
-          <br />
-          Experience flexible, student-led lessons designed to build your confidence and communication skills.
-          <br />
-          <br />
-          Forget the traditional classroom—our online sessions are tailored to your needs, allowing you to learn at your pace, on your schedule.
-          <br />
-          <br />
-          Speak fluently and comfortably in any situation.
-        </p>
+        <button
+          class="cta-button"
+        >
+          Develop these skills
+        </button>
       </div>
     </div>
   </div>

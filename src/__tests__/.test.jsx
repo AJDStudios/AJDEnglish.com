@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import App from '../App';
 import '@testing-library/jest-dom/extend-expect';
 
+// Renders the app and verifies snapshot
 test('renders the app component', () => {
   const { asFragment } = render(
     <Router>
@@ -13,6 +14,7 @@ test('renders the app component', () => {
   expect(asFragment()).toMatchSnapshot();
 });
 
+// Checks that no redundant code or comments exist
 test('does not contain redundant code or comments', () => {
   const { queryByText } = render(
     <Router>
@@ -22,6 +24,7 @@ test('does not contain redundant code or comments', () => {
   expect(queryByText('<!-- Notice the use of %PUBLIC_URL% in the tags above.')).toBeNull();
 });
 
+// Verifies that the splash screen is rendered correctly
 test('renders the splash screen', () => {
   render(
     <Router>
@@ -32,20 +35,29 @@ test('renders the splash screen', () => {
   expect(splashScreen).toBeInTheDocument();
 });
 
-describe('App', () => {
+// Simulate initial loading state
+describe('App Loading State', () => {
   test('renders with initial loading state', () => {
     act(() => {
-      render(<App />);
+      render(
+        <Router>
+          <App />
+        </Router>
+      );
     });
-    const loadingIndicator = screen.getByTestId('splash-screen'); 
+    const loadingIndicator = screen.getByTestId('splash-screen');
     expect(loadingIndicator).toBeInTheDocument();
   });
 
   test('renders loading state when isLoading is true', () => {
     act(() => {
-      render(<App isLoading={true} />);
+      render(
+        <Router>
+          <App isLoading={true} />
+        </Router>
+      );
     });
-    const loadingIndicator = screen.getByTestId('splash-screen'); 
+    const loadingIndicator = screen.getByTestId('splash-screen');
     expect(loadingIndicator).toBeInTheDocument();
   });
-})
+});
