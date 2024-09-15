@@ -33,7 +33,9 @@ describe('App Loading State', () => {
   test('renders with initial loading state', () => {
     act(() => {
       render(
+        
         <App />
+
       );
     });
     const loadingIndicator = screen.getByTestId('splash-screen');
@@ -43,7 +45,9 @@ describe('App Loading State', () => {
   test('renders loading state when isLoading is true', () => {
     act(() => {
       render(
+
         <App isLoading={true} />
+
       );
     });
     const loadingIndicator = screen.getByTestId('splash-screen');
