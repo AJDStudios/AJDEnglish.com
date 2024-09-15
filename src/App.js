@@ -19,10 +19,11 @@ const App = () => {
 
   return (
     <div className="app">
-      {isLoading ? (
-        <SplashScreen />
-      ) : (
-        <Router>
+      <Router>
+        {isLoading ? (
+          <SplashScreen />
+        ) : (    
+        <>
           <Header />
           <Routes>
             <Route path="/" element={<SplashScreen />} />
@@ -32,9 +33,10 @@ const App = () => {
             <Route path="/MyMission" element={<MyMission />} />
             <Route path="/Contact" element={<Contact />} />
           </Routes>
-          <Footer /> 
-        </Router>
+          <Footer />
+        </> 
       )}
+      </Router>
     </div>
   );
 };

@@ -16,3 +16,6 @@ Work in progress
     - updated snapshot and tests to improve coverage    
     - updated testimonials content and test
     - My Misison content and test
+
+15/09/2024
+    - added a new splashscreen    
