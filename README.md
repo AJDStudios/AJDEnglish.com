@@ -18,4 +18,5 @@ Work in progress
     - My Misison content and test
 
 15/09/2024
-    - added a new splashscreen    
+    - added a new splashscreen
+    - added services content    
