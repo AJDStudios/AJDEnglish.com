@@ -20,3 +20,6 @@ Work in progress
 15/09/2024
     - added a new splashscreen
     - added services content    
+16/09/2024
+    - calendly integration
+    
