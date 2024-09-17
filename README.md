@@ -22,4 +22,6 @@ Work in progress
     - added services content    
 16/09/2024
     - calendly integration
-    
+17/09/2024
+    - finalised pricing 
+    - worked on calendly events    
