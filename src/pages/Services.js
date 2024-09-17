@@ -21,14 +21,14 @@ const Services = () => {
         <h2>Available Services</h2>
         <div className="service-item">
           <h3>Standard Communication Lesson</h3>
-          <p>Price: £50 per lesson | £240 for 5 lessons | £450 for 10 lessons</p>
+          <p>Price: £50 per lesson | £230 for 5 lessons | £450 for 10 lessons</p>
           <p>Aimed at improving your fluency, accuracy, and confidence in everyday English. These lessons focus on natural conversation, vocabulary expansion, and personalized feedback.</p>
           <button className="book-btn" onClick={handleBookingClick}>Book Now</button>
         </div>
 
         <div className="service-item">
           <h3>Exam Preparation</h3>
-          <p>Price: £60 per lesson + cost of books (if applicable) | £280 for 5 lessons | £500 for 10 lessons</p>
+          <p>Price: £60 per lesson + cost of books (if applicable) | £285 for 5 lessons | £540 for 10 lessons</p>
           <p>Tailored exam preparation for IELTS, TOEFL, Cambridge Exams, and more. Includes mock exams, feedback, and tips for maximizing your score.</p>
           <button className="book-btn" onClick={handleBookingClick}>Book Now</button>
         </div>
@@ -45,7 +45,7 @@ const Services = () => {
         <h2>Lessons for Minors</h2>
         <div className="minor-item">
           <h3>Minors (Under 13)</h3>
-          <p>Price: £40 per 45-minute session | £180 for 5 lessons | £360 for 10 lessons</p>
+          <p>Price: £40 per 45-minute session | £190 for 5 lessons | £360 for 10 lessons</p>
           <p>Shorter, engaging lessons for younger learners. Perfect for keeping focus and maximizing results.</p>
           <button className="book-btn" onClick={handleBookingClick}>Book Now</button>
         </div>
