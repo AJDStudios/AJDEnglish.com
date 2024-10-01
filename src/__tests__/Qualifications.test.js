@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import Qualifications from '../pages/Qualifications';
+import Qualifications from '../pages/qualifications';
 
 test('renders Qualifications page', () => {
   render(<Qualifications />);
