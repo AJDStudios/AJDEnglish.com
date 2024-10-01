@@ -9,6 +9,7 @@ import MyMission from "./pages/MyMission.js";
 import Contact from "./pages/contact.jsx";
 import SplashScreen from './pages/SplashScreen.js';
 import './styles/App.css';
+import Qualifications from './pages/qualifications.jsx';
 
 const App = () => {
   const [isLoading, setIsLoading] = useState(true); 
@@ -32,6 +33,7 @@ const App = () => {
             <Route path="/Testimonials" element={<Testimonials />} />
             <Route path="/MyMission" element={<MyMission />} />
             <Route path="/Contact" element={<Contact />} />
+            <Route path="/Qualifications" element={<Qualifications />} />
           </Routes>
           <Footer />
         </> 
