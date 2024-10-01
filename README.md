@@ -25,3 +25,7 @@ Work in progress
 17/09/2024
     - finalised pricing 
     - worked on calendly events    
+
+01/10/2024
+    - added qualifications page
+    - moved flags from footer to quals page    

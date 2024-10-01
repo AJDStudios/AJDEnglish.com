@@ -25,6 +25,7 @@ function DeskNavBar() {
           <CustomLink to="/Testimonials">Testimonials</CustomLink>
           <CustomLink to="/MyMission">My Mission</CustomLink>
           <CustomLink to="/Contact">Contact</CustomLink>
+          <CustomLink to="/Qualifications">Qualifications</CustomLink>
         </ul>
       </div>
     </nav>

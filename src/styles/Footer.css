@@ -9,38 +9,8 @@
     align-items: center; 
     padding: 0 20px; 
     text-align: center;
-    font-size: 0.4rem;
+    font-size: 1rem;
     overflow-x: hidden;
-  }
-
-  .flag-section {
-    width: 100%;
-    text-align: center;
-    overflow-x: hidden;
-  }
-  
-  .flag-section h3 {
-    font-size: 0.8rem;
-    margin: 0;
-  }
-  
-  .flag-container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 0;
-    gap: 7px;
-    overflow-x: hidden;
-  }
-  
-  .flag {
-    font-size: 1.8rem;
-    opacity: 0.8;
-    transition: opacity 0.3s ease;
-  }
-  
-  .flag:hover {
-    opacity: 1;
   }
 
 @media (max-width: 767px) {
@@ -48,39 +18,15 @@
       flex-direction: column;
       height: auto;
       padding: 0px;
-      font-size: 0.4rem;
-  }
-
-  .flag-container {
-      gap: 2px;
-  }
-
-  .flag {
-      font-size: 0.5rem;
-  }
-
-  .flag-section h3 {
-      font-size: 0.4rem;
+      font-size: 0.6rem;
   }
 }
 
-/* Tablet View */
+
 @media (min-width: 768px) and (max-width: 1080px) {
   .footer {
       padding: 0 10px;
       height: auto;
-      font-size: 0.5rem;
-  }
-
-  .flag {
-      font-size: 1rem;
-  }
-
-  .flag-section h3 {
-      font-size: 0.5rem;
-  }
-
-  .flag-container {
-      gap: 4px;
+      font-size: 0.8rem;
   }
 }  
